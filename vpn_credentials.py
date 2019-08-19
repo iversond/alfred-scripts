@@ -30,5 +30,5 @@ def main():
 
 if __name__ == '__main__':
 	# for debugging the app
-    os.environ['alfred_workflow_data'] = '/Users/rhasija/Library/Application Support/Alfred 3/Workflow Data/org.javawithravi.alfred.workflow.cisco.anytimeconnect.vip'
+    os.environ['alfred_workflow_data'] = '/Users/dan/Library/Application Support/Alfred/Workflow Data/org.javawithravi.alfred.workflow.cisco.anytimeconnect.vip'
     main()

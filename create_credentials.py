@@ -18,8 +18,3 @@ def main(query):
         print "Created password config successfully"
     except Exception as e:
         print "I/O error({0}): {1} {2}".format(e.errno, e.strerror, data_dir)
-
-
-# if __name__ == '__main__':
-#     os.environ['alfred_workflow_data'] = '/Users/rhasija/Google Drive/Alfred/Alfred.alfredpreferences/workflows/user.workflow.B865A65B-5916-46CE-AE15-D413FFB64F64'
-#     main('foobar')
